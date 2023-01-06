@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Formularios en HTML</title>
+</head>
+
+<body>
+
+    <h1>Formularios en HTML</h1>
+    <div>
+        <p>En este segmento se agrega un formulario a la página.</p>
+    </div>
+    <div>
+        <form autocomplete="off">
+            <fieldset>
+                <legend> Datos de la Persona: </legend>
+                 </br>
+                <!-- Nombre de usuario-->
+                <label for="nom">Nombre: </label>
+                </br>
+                <input type="text" id="nom" name="nombre" required="true" placeholder="Escriba su nombre">
+                </br>
+                </br>
+                <!-- Apellido de usuario-->
+                <label for="apll">Apellido: </label>
+                </br>
+                <input type="text" id="apll" name="apellido" required="true" placeholder="Escriba su apellido">
+                </br>
+                </br>
+                <!-- Correo de usuario-->
+                <label for="eml">Email: </label>
+                </br>
+                <input type="email" id="eml" name="email" required="true" placeholder="Escriba su Correo">
+                </br>
+                </br>
+                <!-- Edad de usuario-->
+                <label for="edd">Edad: </label>
+                </br>
+                <input type="number" id="edd" name="edad" required="true" placeholder="Escriba su Edad">
+                </br>
+                </br>
+                <!-- Género del usuario de usuario (RADIOBUTTON)-->
+                </br>
+                <label>Género: </label>
+                </br>
+                <input type="radio" id="gen_fem" name="genero" required="true">
+                <label for="gen_fem">Femenimno </label>
+                </br>
+                <input type="radio" id="gen_mas" name="genero" required="true">
+                <label for="gen_mas">Masculino </label>
+                </br>
+                </br>
+
+                <!-- Género de música favorita del usuario (CHECKBOX)-->
+                <label for="">Música favorita (Puede seleccionar más de una opción)</label>
+                </br>
+                <input type="checkbox" id="rg tn" name="musica" value="rgaeton">
+                <label for="rgtn">Regaeton</label>
+                </br>
+                <input type="checkbox" id="class" name="musica" value="class">
+                <label for="class">Clásica</label>
+                </br>
+                <input type="checkbox" id="instr" name="musica" value="instr">
+                <label for="instr">Instrumental</label>
+                </br>
+                <!--Elementos de tipo select -->
+                <label for="">Marca de Autos favorita: </label>
+                </br>
+                <select name="autos" id="auts">
+                    <option value="volvo">Volvo</option>
+                    <option value="ferrari">Ferrari</option>
+                    <option value="renault">Renault</option>
+                    <option value="Mazda">Mazda</option>
+                </select>
+                </br>
+                </br>
+                <!--Elementos de tipo select -->
+                <label for="comnt">Comentario: </label>
+                </br>
+                <textarea id="coment" name="comentario" rows="3" cols="40">
+        </textarea>
+                </br>
+                </br>
+
+
+                <!--Botones de envío-->
+                </br>
+                <input type="submit" value="Enviar">
+                <input type="submit" value="Enviar sin validacioes" formnovalidate="formnovalidate">
+                </br>
+                </br>
+                <input type="reset" value="Borrar Datos">
+            </fieldset>
+        </form>
+
+    </div>
+
+
+
+</body>
+
+</html>

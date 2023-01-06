@@ -1,0 +1,36 @@
+/*Aplicar estilos por clases*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 5px;
+}
+
+span{
+    color: #b300ff;
+    text-decoration: underline;
+}
+/*Identificador en CSS  id="nombre_identificador" en CSS es #nombre_identificador {...}*/
+
+#titulo_body{
+    color: blueviolet;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+}
+
+.contenedor{
+    background-color: rgb(220, 255, 243);
+    border: 5px solid rgb(0,120,120);
+    text-align: center;
+    color: brown;
+    margin: 15px 200px;
+    padding: 5px;
+}
+
+.titulo_contenedor{
+    color: rgb(117, 0, 0);
+}
