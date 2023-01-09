@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="syles/styles.css">
     <title>Crud en HTML CSS y JS</title>
+
 </head>
+
 <body>
-    
+    <div class="div-titulo">
+        <h1>CRUD Local con HTML/CSS/JS</h1>
+    </div>
+    <div class="contenedor">
+        <form action="">
+            <h2>Formulario de Registro</h2>
+            <label for="nombre">Nombre: </label>
+            <input type="text" nombre="nombre" id="nombre" placeholder="Digita el nombre" />
+            <label for="nombre">Puesto: </label>
+            <input type="text" nombre="puesto" id="puesto" placeholder="Digita el puesto" />
+            <button type="submit" id="btnAgregar">Agregar</button>
+            </br>
+            </br>
+        </form>
+        <div class="div-Elemtn">
+            <h2>Listado de Elementos</h2>
+            <div class="div-empleados"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
 </body>
+
 </html>
